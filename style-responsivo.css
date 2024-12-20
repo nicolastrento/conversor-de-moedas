@@ -1,0 +1,65 @@
+
+@media screen and (max-width: 800px) {
+
+  .logo {
+    top: 0;
+    left: 0;
+    position: inherit;
+    transform: translateX(0);
+
+     & img {
+      width: 150px;
+      margin-bottom: 10px;
+     }
+  }
+  main {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .container-left, .container-right {
+    width: 90%; /* Ajusta a largura das containers para ocupar mais espaço na tela */
+    margin: 0px auto; /* Centraliza as containers */
+
+  }
+
+  .container-left {
+    padding: 20px; /* Diminui o preenchimento da esquerda para adaptar o layout */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-right {
+    padding: 10px; /* Ajusta o padding da direita também */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+    & p {
+      font-size: 15px;
+    }
+  }
+
+  .arrow-img {
+    transform: rotate(-90deg);
+  }
+
+  label {
+    padding-left: 10px;
+  }
+
+  .converter1, .converter2 {
+    width: 311px;
+  }
+
+  input {
+    width: 311px;
+  }
+
+  button {
+    width: 200px;
+  }
+}

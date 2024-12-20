@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+body {
+  background-color: rgb(83, 83, 83);
+ 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  
+  & img {
+    width: 300px;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 60px;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 355px;
+  background: #969696;
+  border-radius: 20px;
+  padding: 40px;
+  gap: 30px;
+ 
+  box-shadow: 4px 7px 15px rgba(113, 223, 168, 0.295);
+}
+
+label {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  
+  
+
+  & span {
+    color:#042f15;
+    font-weight: 700;
+  }
+}
+
+.converter1 , .converter2{
+  background: #FFFFFF;
+  border: 1px solid #042f15;
+  border-radius: 4px;
+  height: 48px;
+  width: 300px;
+  appearance: none;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #042f15;
+  cursor: pointer;
+  gap: 20px;
+  box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.7);
+}
+
+input {
+  background: #FFFFFF;
+  border: 1px solid #042f15;
+  border-radius: 4px;
+  height: 48px;
+  width: 300px;
+  appearance: none;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #042f15;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} 
+
+button {
+  background: linear-gradient(90deg, rgba(4,47,21,1) 0%, rgba(84,212,123,1) 50%, rgba(4,47,21,1) 100%);
+  border-radius: 5px;
+  width: 300px;
+  border: none;
+  height: 48px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.7);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  width: 355px;
+  height: 419px;
+  background: #969696;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 4px 7px 15px rgba(113, 223, 168, 0.295);
+
+  border: 1px solid #378d6c;
+  border-radius: 20px;
+}
+
+.arrow-img {
+  height: 45px;
+  margin: 15px;
+}
+
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.currency {
+  color: #042f15;
+  font-size: 18px;
+
+}
+
+.currency-value, .currency-value-to-convert {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
