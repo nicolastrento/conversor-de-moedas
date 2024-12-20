@@ -1,11 +1,9 @@
 ## CONVERSOR DE MOEDAS
 <br/>
 
-## PRATICANDO HTML5, CSS, JAVASCRIPT.
+## Este é um projeto que desenvolvi com os conhecimentos adquiridos no DevClub!
 
-Este é um projeto que desenvolvi com os conhecimentos adquiridos no DevClub!
-
-# Mergulhando no universo do JavaScript.
+Mergulhando no universo do JavaScript.
 
 Usei toda minha criatividade na criação e estilização da página, tornando a interação mais intuitiva. Além disso, aprofundei meus conhecimentos em JavaScript, aplicando-os para garantir a funcionalidade do site.
 
